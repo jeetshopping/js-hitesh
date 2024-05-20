@@ -16,7 +16,7 @@
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 const bigNumber = 4344323452n
 
@@ -38,9 +38,40 @@ const myfunction = function(){
 }
 
 
-console.log(typeof bigNumber);
-console.log(typeof myObj);
-console.log(typeof heros);
-console.log(typeof myfunction);
-console.log(typeof anotherId);
+// console.log(typeof bigNumber);
+// console.log(typeof myObj);
+// console.log(typeof heros);
+// console.log(typeof myfunction);
+// console.log(typeof anotherId);
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory ( Primative datatype )
+// Heap Memory (Non Primative datatype)
+
+
+let myYoutubeName = "hiteshchoudharydotcom"
+
+let anotherName = myYoutubeName
+
+anotherName = "chaiaurcode"
+
+// console.log(myYoutubeName);
+// console.log(anotherName);
+
+let user1 ={
+    email:"user@goggle.com",
+    upi:"user@ybl"
+}
+
+let userTwo = user1
+
+// console.log(user1);
+
+// console.log(userTwo);
+
+userTwo.email="userTwo@goggle.com";
+
+// console.log(userTwo);
+// console.log(user1);
